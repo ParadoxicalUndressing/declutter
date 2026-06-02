@@ -94,7 +94,7 @@ int main(int argc, char **argv)
             print_version();
             return 0;
         }
-        if(strcmp(argv[1], "--verbose") || strcmp(argv[1], "-v"))
+        if(strcmp(argv[1], "--verbose") == 0 || strcmp(argv[1], "-v") == 0)
         {
             verbose = 1;
         }
